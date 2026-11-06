@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offline — AnivoidTV</title>
+<meta name="theme-color" content="#0f0e13">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/theme.css">
+<style>
+  .off{ min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; text-align:center; }
+  .off-card{ max-width:420px; background:var(--bg-raise); border:2px solid #f4ead824; border-radius:18px; padding:34px 26px; box-shadow:6px 6px 0 #000a; }
+  .off-card img{ width:84px; height:84px; border-radius:20px; border:3px solid #0b0a0f; box-shadow:4px 4px 0 var(--vermilion); margin-bottom:18px; }
+  .off-card h1{ font-size:26px; margin-bottom:8px; } .off-card p{ color:var(--muted); line-height:1.65; margin-bottom:20px; }
+</style>
+</head>
+<body>
+<main class="off"><div class="off-card">
+  <img src="/assets/logo.jpg" alt="">
+  <h1>You're offline</h1>
+  <p>AnivoidTV needs a connection to load episodes and your profile. Check your internet and try again. Pages you opened recently may still work.</p>
+  <button class="btn primary" id="retry" type="button">Try again</button>
+</div></main>
+<script src="/assets/pages/offline.js"></script>
+</body>
+</html>
