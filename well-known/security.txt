@@ -1,0 +1,5 @@
+# Found a security problem? Please tell us privately before posting it publicly.
+# EDIT THIS FILE: replace the contact with your own Telegram link or email.
+Contact: https://t.me/CHANGE_ME
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en
